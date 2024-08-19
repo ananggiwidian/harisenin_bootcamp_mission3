@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+  }
+
+.header img{
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.container{
+    background: #FCF8CA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    min-width: 370px;
+    justify-content: center;
+}
+
+
+.body{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 0 0;
+    font-size: 30px;
+    align-items: center;
+    font-weight: bold;
+    background-color: #FFFDF3;
+}
+
+.register-header{
+    display: flex;
+    justify-content: center;
+    margin: 8px 0px 0 0;
+    align-items: center;
+    font-size: 16px;
+    color: #413652;
+
+}
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+    margin: 4px 0 0 0;
+    align-items: center;
+    font-size: 14px;
+    color: #9E9E9E;
+}
+
+
+.input-container{
+    margin: 30px 30px 50px 30px;
+    background-color: #fff;
+    padding: 45px;
+    box-shadow: 0 5px 12px 0 #d9d9d9d5;
+    border-radius: 25px;
+    
+}
+ 
+label{
+    color: #413652;
+    margin: 0 0 8px 0;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+    font-size: 14px;
+}
+
+.button-field{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+    font-size: 14px;
+}
+
+input{
+    outline: none;
+    padding: 0 15px 0 15px;
+    border: 1px solid #C1C2C4;
+    border-radius: 8px;
+    height: 38px;
+    font-size: 18px;
+}
+
+button{
+    outline: none;
+    padding: 0 15px 0 15px;
+    border: 1px solid #C1C2C4;
+    border-radius: 8px;
+    height: 38px;
+    font-size: 18px;
+    width: 100%;
+    width:100%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.submit[type=submit]:hover {
+    background-color: #e2fcd9;
+    color: #3ECF4C;
+    cursor: pointer;
+  }
+
+.register[type=submit]:hover {
+    background-color: #3ecf4c;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.submit{
+    background-color: #3ECF4C;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.register{
+    background-color: #E2FCD9;
+    color: #3ECF4C;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px;
+}
+
+
+.forget span a{
+    font-size: 12px;
+    color: #4A505C;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.forget{
+    text-align: right;
+}
+
+.col li{
+    display: inline-block;
+    column-gap: 7px;
+}
+
+.col{
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.col2{
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    border: 0px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.col li img{
+    border: 0px solid #ddd;
+    border-radius: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.googlebtn{
+    text-decoration: none;
+    font-size: 14px;
+    color: #4A505C;
+    text-align: center;
+    flex-direction: column;
+    margin: 15px 5px 15px 5px;
+    padding: 10px;
+}
+
+
+
+
+
