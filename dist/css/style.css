@@ -12,6 +12,8 @@
     height: auto;
     background-color: #fffcf3;
 }
+
+
 .container{
     padding: 10px 0 10px 0;
     width: 90%;
@@ -32,6 +34,10 @@
     border-radius: 10px;
     width: 40px;
     height: 40px;
+}
+
+.navbar .box-navbar .menu li {
+    list-style-type: none;
 }
 
 .box-navbar .logo h1 img{
